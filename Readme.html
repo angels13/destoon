@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<title>DESTOON B2B网站管理系统使用说明(Readme)</title>
+<style type="text/css">
+* {word-break:break-all;font-family:'Microsoft YaHei',Verdana,Arial,Helvetica,sans-serif;}
+body {color:#000000;background:#EFEFF4;}
+div {width:700px;margin:16px auto;background:#FFFFFF;padding:24px 48px;}
+h1 {font-size:20px;margin:16px;padding-bottom:24px;border-bottom:#DDDDDD 1px solid;}
+h2 {font-size:16px;margin:16px;}
+p {font-size:16px;margin:0 16px;line-height:200%;}
+a:link,a:visited,a:active,a:hover {color:#007AFF;text-decoration:none;}
+a:hover {color:#FF6600;}
+</style>
+</head>
+<body>
+<div>
+<h1>欢迎使用DESTOON B2B网站管理系统V7.0</h1>
+<p>希望我们的产品能为您提供一个高效、稳定和强大的B2B电子商务行业门户网站解决方案。</p><br/>
+<p><strong style="color:red;">注意</strong>：DESTOON著作权受到法律和国际公约保护，企业用户（泛指非自然人的团体，如公司、协会等组织机构）必须<a href="https://www.destoon.com/buy/?tracert=readme" target="_blank">购买软件授权</a>后方可正式建站使用。请务必仔细阅读并确认理解和同意<a href="https://www.destoon.com/product/license.html?tracert=readme" target="_blank">软件使用协议</a>的内容后使用。</p>
+<h2>安装说明</h2>
+<p>系统运行环境：可用的httpd服务器(如 Apache、Nginx、IIS 等) / PHP 4.3.0 及以上 / MySQL 4.0.0 及以上</p>
+<p>第一步：上传本软件包内destoon目录下的所有文件及目录至您的服务器站点目录。</p>
+<p>第二步：如果安装DESTOON的站点访问网址为http://www.abc.com/，则访问http://www.abc.com/install/进入程序安装向导。</p>
+<p>第三步：根据安装向导提示设置必要的数据库连接参数以及必要的文件属性完成系统安装。</p><br/>
+<p>如果在安装或者使用中有任何问题，请查阅<a href="https://www.destoon.com/doc/?tracert=readme" target="_blank">官方文档</a>或<a href="https://bbs.destoon.com/?tracert=readme" target="_blank">登录论坛</a>交流。</p>
+<h2>常见问题</h2>
+<p>1、500 internal server error，请删除根目录下.htaccess文件 或 对于Liunx/Unix服务器，如果不支持0777属性，可修改config.inc.php内$CFG['file_mod'] = 0777;为$CFG['file_mod'] = 0755</p>
+<p>2、license.txt文件不存在或被修改，请FTP二进制上传license.txt</p>
+<h2>相关资源</h2>
+<p>官方主页：<a href="https://www.destoon.com/?tracert=readme" target="_blank">https://www.destoon.com</a></p>
+<p>交流论坛：<a href="https://www.destoon.com/member/index.php?action=dz" target="_blank">https://bbs.destoon.com</a></p>
+<p style="color:red;">软件购买：<a href="https://www.destoon.com/buy/?tracert=readme" target="_blank">https://www.destoon.com/buy/</a></p>
+<p>帮助文档：<a href="https://www.destoon.com/doc/?tracert=readme" target="_blank">https://www.destoon.com/doc/</a></p>
+<p>专用主机：<a href="https://www.destoon.com/host/?tracert=readme" target="_blank">https://www.destoon.com/host/</a></p>
+<p>SSL证书：<a href="https://www.destoon.com/ssl/?tracert=readme" target="_blank">https://www.destoon.com/ssl/</a></p>
+
+<h2>联系方式</h2>
+<p>公司：<a href="https://www.destoon.com/company/contact.html?tracert=readme" target="_blank">西安嘉客信息科技有限责任公司</a></p>
+<p>电话：4009009868</p>
+<p>微信：18092363858</p>
+<p>企业QQ：800061063</p>
+<p><a href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&key=XzgwMDA2MTA2M18xNDA1ODNfODAwMDYxMDYzXzJf" target="_blank"><img src="data:image/gif;base64,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" width="115" height="22" alt="企业QQ交谈" title="企业QQ交谈"/></a></p>
+</div>
+</body>
+</html>
