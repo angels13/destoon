@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /*
 	[Destoon B2B System] Copyright (c) 2008-2018 Destoon.COM
 	This is NOT a freeware, use is subject to license.txt
@@ -46,11 +46,7 @@ switch($step) {
 	case '1'://协议
 		$license = file_get_contents(DT_ROOT.'/license.txt');
 		$DT_LICENSE = md5($license);
-		if($DT_LICENSE != '0f974f89aa216d38ed232b0ccb957614') {
-			$msg = '请检查网站根目录下 license.txt 文件是否存在或被修改<br/>使用Destoon B2B网站管理系统，必须同意license.txt内容，并保留此文件<br/>如果使用FTP上传文件，请使用二进制模式上传 license.txt';
-			include IN_ROOT.'/msg.tpl.php';
-			exit;
-		}
+
 		include IN_ROOT.'/step_'.$step.'.tpl.php';
 	break;
 	case '2'://环境
